@@ -1,0 +1,232 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0"
+          name="viewport">
+    <meta content="ie=edge" http-equiv="X-UA-Compatible">
+    <link href="/favicon.png" rel="icon" type="image/x-icon">
+    <link href="https://fonts.googleapis.com" rel="preconnect">
+    <link crossorigin href="https://fonts.gstatic.com" rel="preconnect">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300;400;700&display=swap"
+          rel="stylesheet">
+    <link href="./styles.css" rel="stylesheet">
+    <title> Typescript Boilerplate </title>
+</head>
+<body>
+
+<section class="login">
+    <form class="login__form">
+        <label>
+            Input Label
+            <input class="input-login" placeholder="Username" required type="text">
+        </label>
+        <label>
+            Input Label
+            <input class="input-login" placeholder="Password" required type="password">
+        </label>
+        <label class="login__form__checkbox-container">Subscribe to News
+            <input checked="checked" type="checkbox">
+            <span class="checkmark"></span>
+        </label>
+        <button class="login__form__submit-button js-button" type="submit">
+            Sign in
+        </button>
+        <div class="login__form__forgot-password">
+            <a href="index.html">Forgot your password?</a>
+        </div>
+        <hr>
+        <div class="login__form__continue">
+            <p>
+                or continue with
+            </p>
+        </div>
+        <div class="login__form__socMedia">
+            <button class="login__form__socMedia__btn">
+                <img class="login__form__socMedia__btn__img" src="assets/images/image%202.svg">
+            </button>
+            <button class="login__form__socMedia__btn">
+                <img class="login__form__socMedia__btn__img" src="assets/images/Subtract.svg">
+            </button>
+        </div>
+    </form>
+    <!--    <button onclick="toggleTheme">Toggle Theme</button>-->
+</section>
+<section class="contact hidden">
+    <form class="contact__form">
+        <h1>
+            Contact Us
+        </h1>
+        <div class="contact__form__labelContainers">
+            <div class="contact__form__labelContainers__container">
+                <label class="label">
+                    Input Label
+                    <input placeholder="Placeholder Text" type="email">
+                </label>
+                <label class="label">
+                    Input Label
+                    <input placeholder="Placeholder Text" type="text">
+                </label>
+            </div>
+            <div class="contact__form__labelContainers__container">
+                <label class="label">
+                    Input Label
+                    <input placeholder="Placeholder Text" type="text">
+                </label>
+                <label class="label">
+                    Input Label
+                    <input placeholder="Placeholder Text" type="text">
+                </label>
+            </div>
+        </div>
+        <label class="contact__form__checkbox-container">Subscribe to News
+            <input checked="checked" type="checkbox">
+            <span class="checkmark"></span>
+        </label>
+        <label class="contact__form__text-label">
+            Text Area Label
+            <input placeholder="Placeholder Text" type="text">
+            <!--            <textarea></textarea> add later-->
+        </label>
+        <div class="contact__form__submit-button__wrapper">
+            <button class="contact__form__submit-button js-button" type="submit">
+                Submit
+            </button>
+        </div>
+    </form>
+</section>
+<section class="contact-info-container hidden">
+    <div class="contact-info">
+        <div class="contact-info__col-3">
+            <abbr>
+                Contact Information
+            </abbr>
+            <p>
+                Here’s some additional support text to help set user expectations.
+            </p>
+            <div class="contact-info__col-3__contact">
+                <img src="assets/images/Vector.svg">
+                123-456-7890
+            </div>
+            <div class="contact-info__col-3__contact">
+                <img src="assets/images/Mail.svg">
+                support@minerva.com
+            </div>
+        </div>
+        <div class="contact-info__col-7">
+            <form class="contact__form">
+                <h1>
+                    Contact Us
+                </h1>
+                <div class="contact__form__labelContainers">
+                    <div class="contact__form__labelContainers__container">
+                        <label>
+                            Input Label
+                            <input placeholder="Placeholder Text" type="text">
+                        </label>
+                        <label>
+                            Input Label
+                            <input placeholder="Placeholder Text" type="password">
+                        </label>
+                    </div>
+                    <div class="contact__form__labelContainers__container">
+                        <label>
+                            Input Label
+                            <input placeholder="Placeholder Text" type="text">
+                        </label>
+                        <label>
+                            Input Label
+                            <input placeholder="Placeholder Text" type="password">
+                        </label>
+                    </div>
+                </div>
+                <label class="contact__form__text-label">
+                    Text Area Label
+                    <input placeholder="Placeholder Text" type="text">
+                </label>
+                <div class="contact__form__submit-button__wrapper">
+                    <button class="contact__form__submit-button js-button" type="submit">
+                        Submit
+                    </button>
+                </div>
+            </form>
+        </div>
+    </div>
+
+</section>
+<section class="checkout hidden">
+    <h1>
+        Checkout
+    </h1>
+    <div class="checkout__details">
+        <div class="checkout__details__left">
+            <h2>
+                Your Order
+            </h2>
+            <h3>
+                Eggshell Plant Pot
+            </h3>
+            <p>
+                Size: Medium
+                Qty: 1
+                $25.00
+            </p>
+        </div>
+        <div class="checkout__details__right">
+            <h2>
+                Delivery Details
+            </h2>
+            <div class="checkout__details__right__delivery-details">
+                <div class="checkout__details__right__delivery-detail">
+                    <h3>
+                        Adam Sandler
+                    </h3>
+                    <p>
+                        1234 Fake St Milwaukee, WI 53203
+                    </p>
+                </div>
+                <div class="checkout__details__right__delivery-detail">
+                    <h3>
+                        Shipping Speed
+                    </h3>
+                    <p>
+                        $7.00 No Rush Shipping
+                    </p>
+                    <p>
+                        Arrives by 1/16/22
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <h2>
+        Payment Method
+    </h2>
+    <form class="checkout__payment">
+        <div class="checkout__payment__input">
+            <label class="checkout__payment__input__label">
+                Input Label
+                <input placeholder="Placeholder Text" type="text">
+            </label>
+            <div class="checkout__payment__input__details">
+                <label class="label-small">
+                    Input Label
+                    <input placeholder="Placeholder Text" type="text">
+                </label>
+                <label class="label-small">
+                    Input Label
+                    <input placeholder="Placeholder Text" type="text">
+                </label>
+            </div>
+        </div>
+        <div class="checkout__form__submit-button__wrapper">
+            <button class="checkout__form__submit-button js-button" type="submit">
+                Submit
+            </button>
+        </div>
+    </form>
+</section>
+
+<script src="/scripts.js"></script>
+</body>
+</html>
