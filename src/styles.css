@@ -41,11 +41,11 @@ html[data-theme='light'] {
         filter: drop-shadow(1rem 1rem 1rem rgba(154, 154, 154, 0.55));
     }
 
-    .login__form__socMedia__btn__img {
+    .login__form-socMedia__btn__img {
         filter: invert(1);
     }
 
-    .login__form__socMedia__btn {
+    .login__form-socMedia__btn {
         &:hover {
             background-color: var(--c-soc-btn-hover);
             cursor: pointer;
@@ -154,7 +154,7 @@ h3 {
     font-weight: lighter;
 }
 
-.login__form__submit-button {
+.login__form-submit-button {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -178,7 +178,7 @@ h3 {
 
 }
 
-.login__form__forgot-password {
+.login__form-forgot-password {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -186,7 +186,7 @@ h3 {
     width: 100%;
 }
 
-.login__form__forgot-password > a {
+.login__form-forgot-password > a {
     color: var(--c-secondary);
     text-decoration-color: var(--c-secondary);
     font-weight: lighter;
@@ -199,7 +199,7 @@ h3 {
     border-bottom-width: 0.2rem;
 }
 
-.login__form__continue {
+.login__form-continue {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -209,14 +209,14 @@ h3 {
     color: var(--c-trinary);
 }
 
-.login__form__socMedia {
+.login__form-socMedia {
     display: flex;
     flex-direction: row;
     gap: 20px;
     width: 100%;
 }
 
-.login__form__socMedia__btn {
+.login__form-socMedia__btn {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -247,6 +247,7 @@ h3 {
 
 .contact__form {
     width: 100%;
+    height: 100%;
     display: flex;
     flex-direction: column;
     align-items: flex-start;
@@ -254,7 +255,7 @@ h3 {
     background-color: var(--c-primary);
 }
 
-.contact__form__labelContainers {
+.contact__form-labelContainers {
     display: flex;
     flex-direction: row;
     gap: 1.5rem;
@@ -262,7 +263,7 @@ h3 {
     width: 100%;
 }
 
-.contact__form__labelContainers__container {
+.contact__form-labelContainers__container {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -271,7 +272,7 @@ h3 {
     height: 100%;
 }
 
-.contact__form__labelContainers__container > label > input {
+.contact__form-labelContainers__container > label > input {
     border-radius: 0.25rem;
     width: 94%;
     height: 3rem;
@@ -281,7 +282,7 @@ h3 {
     background-color: var(--c-4thColor);
 }
 
-.contact__form__labelContainers__container > label {
+.contact__form-labelContainers__container > label {
     display: flex;
     flex-direction: column;
     width: 100%;
@@ -290,7 +291,7 @@ h3 {
 }
 
 /* Customize the label (the container) */
-.contact__form__checkbox-container {
+.contact__form-checkbox-container {
     margin-top: 1.8rem;
     margin-bottom: 1.8rem;
     display: block;
@@ -307,7 +308,7 @@ h3 {
 }
 
 /* Hide the browser's default checkbox */
-.contact__form__checkbox-container input {
+.contact__form-checkbox-container input {
     position: absolute;
     opacity: 0;
     cursor: pointer;
@@ -328,12 +329,12 @@ h3 {
 }
 
 /* On mouse-over, add a grey background color */
-.contact__form__checkbox-container:hover input ~ .checkmark {
+.contact__form-checkbox-container:hover input ~ .checkmark {
     background-color: #ccc;
 }
 
 /* When the checkbox is checked, add a blue background */
-.contact__form__checkbox-container input:checked ~ .checkmark {
+.contact__form-checkbox-container input:checked ~ .checkmark {
     background-color: #FD7918;
 }
 
@@ -345,12 +346,12 @@ h3 {
 }
 
 /* Show the checkmark when checked */
-.contact__form__checkbox-container input:checked ~ .checkmark:after {
+.contact__form-checkbox-container input:checked ~ .checkmark:after {
     display: block;
 }
 
 /* Style the checkmark/indicator */
-.contact__form__checkbox-container .checkmark:after {
+.contact__form-checkbox-container .checkmark:after {
     left: 8px;
     width: 8px;
     height: 16px;
@@ -363,7 +364,7 @@ h3 {
 
 
 /* Customize the label (the container) */
-.login__form__checkbox-container {
+.login__form-checkbox-container {
     display: block;
     position: relative;
     padding-left: 35px;
@@ -378,12 +379,12 @@ h3 {
 }
 
 /* Show the checkmark when checked */
-.login__form__checkbox-container input:checked ~ .checkmark:after {
+.login__form-checkbox-container input:checked ~ .checkmark:after {
     display: block;
 }
 
 /* Style the checkmark/indicator */
-.login__form__checkbox-container .checkmark:after {
+.login__form-checkbox-container .checkmark:after {
     left: 8px;
     width: 8px;
     height: 16px;
@@ -395,17 +396,17 @@ h3 {
 }
 
 /* On mouse-over, add a grey background color */
-.login__form__checkbox-container:hover input ~ .checkmark {
+.login__form-checkbox-container:hover input ~ .checkmark {
     background-color: #ccc;
 }
 
 /* When the checkbox is checked, add a blue background */
-.login__form__checkbox-container input:checked ~ .checkmark {
+.login__form-checkbox-container input:checked ~ .checkmark {
     background-color: #FD7918;
 }
 
 /* Hide the browser's default checkbox */
-.login__form__checkbox-container input {
+.login__form-checkbox-container input {
     position: absolute;
     opacity: 0;
     cursor: pointer;
@@ -413,7 +414,7 @@ h3 {
     width: 0;
 }
 
-.contact__form__text-label {
+.contact__form-text-label {
     display: flex;
     flex-direction: column;
     justify-content: start;
@@ -422,7 +423,7 @@ h3 {
     height: 100%;
 }
 
-.contact__form__text-label > input {
+.contact__form-text-label > input {
     width: 100%;
     height: 6rem;
     background-color: var(--c-4thColor);
@@ -430,7 +431,7 @@ h3 {
     border-radius: 0.4rem;
 }
 
-.contact__form__submit-button {
+.contact__form-submit-button {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -453,12 +454,13 @@ h3 {
     }
 }
 
-.contact__form__submit-button__wrapper {
-    margin-top: 1rem;
+.contact__form-submit-button__wrapper {
+    margin-top: auto;
     display: flex;
     flex-direction: row;
     justify-content: end;
-    align-items: center;
+    align-items: end;
+    height: 100%;
     width: 100%;
 }
 
@@ -497,6 +499,11 @@ h3 {
 
 .contact-info__col-3 > abbr {
     margin-top: 3rem;
+
+    font-family: Roboto C, sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    color: #FFFFFF;
 }
 
 .contact-info__col-7 {
@@ -514,6 +521,18 @@ h3 {
     justify-content: start;
     align-items: center;
     gap: 0.5rem;
+
+    font-family: Roboto C, sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    color: #FFFFFF;
+}
+
+.contact-info__col-3-p {
+    font-family: Roboto C, sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    color: #FFFFFF;
 }
 
 .checkout {
@@ -596,6 +615,7 @@ h3 {
     justify-content: center;
     align-items: center;
     width: 100%;
+    height: 100%;
     gap: 0.5rem;
 }
 
@@ -656,7 +676,7 @@ h3 {
     background-color: var(--c-4thColor);
 }
 
-.checkout__form__submit-button {
+.checkout__form-submit-button {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -679,8 +699,8 @@ h3 {
     }
 }
 
-.checkout__form__submit-button__wrapper {
-    margin-top: 1rem;
+.checkout__form-submit-button__wrapper {
+    margin-top: auto;
     display: flex;
     flex-direction: row;
     justify-content: end;
@@ -719,7 +739,7 @@ h3 {
         padding: 0rem 1rem 1rem;
     }
 
-    .contact__form__labelContainers {
+    .contact__form-labelContainers {
         display: flex;
         flex-direction: column;
         gap: 1.5rem;
@@ -818,11 +838,11 @@ h3 {
         height: 100%;
     }
 
-    .contact__form__labelContainers {
+    .contact__form-labelContainers {
         gap: 0rem;
     }
 
-    .contact__form__labelContainers__container {
+    .contact__form-labelContainers__container {
         width: 100%;
     }
 
